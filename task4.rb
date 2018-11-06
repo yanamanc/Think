@@ -1,14 +1,10 @@
 print "a is : "
-a = gets.chomp
+a = gets.chomp.to_f
 print "b is : "
-b = gets.chomp
+b = gets.chomp.to_f
 print "c is : "
-c = gets.chomp
+c = gets.chomp.to_f
 
-
-a = a.to_i
-b = b.to_i
-c = c.to_i
 
 d = b * b - 4 * a *c
 sqrt = Math.sqrt(d)

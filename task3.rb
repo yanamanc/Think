@@ -5,8 +5,8 @@ second = gets.chomp.to_f
 print "Third side is : "
 third = gets.chomp.to_f
 
-sides = [first,second,third]
-h = sides.mas
+sides = [first, second, third]
+h = sides.max
 c1, c2 = sides.min(2)
 
 if c1*c1 + c2*c2 == h*h
